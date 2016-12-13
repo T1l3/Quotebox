@@ -1,0 +1,24 @@
+.quotebox {
+  /*
+   * Icon made by Freepik from www.flaticon.com is licensed by CC 3.0 BY
+  */
+  background: url('../images/left-quote.png') 8px 8px no-repeat #F7F7F7;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0,0,0,.15);
+  padding: 8px;
+  margin: 10px;
+}
+.quotebox-quote, .quotebox-author {
+  box-shadow: 0 1px 1px #b6b6b6 inset;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  background: #fff;
+}
+.quotebox-quote {
+  margin: 0 0 8px 40px;
+  padding: 5px 8px;
+}
+.quotebox-author {
+  padding: 0 8px;
+}
