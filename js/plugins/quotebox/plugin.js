@@ -4,7 +4,7 @@
   CKEDITOR.plugins.add('quotebox', {
     requires: 'widget',
     lang: 'en,fr',
-    icons: 'quote', // %REMOVE_LINE_CORE%
+    icons: 'quotebox', // %REMOVE_LINE_CORE%
 
     init: function (editor) {
       var lang = editor.lang.quotebox;
