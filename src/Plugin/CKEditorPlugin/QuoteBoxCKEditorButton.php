@@ -48,7 +48,7 @@ class QuoteBoxCKEditorButton extends CKEditorPluginBase implements CKEditorPlugi
     return drupal_get_path('module', 'quotebox') . '/js/plugins/quotebox/plugin.js';
   }
 
-   /**
+  /**
    * {@inheritdoc}
    */
   public function getCssFiles(Editor $editor) {

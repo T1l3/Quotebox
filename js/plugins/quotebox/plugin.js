@@ -9,7 +9,7 @@
     init: function (editor) {
       var lang = editor.lang.quotebox;
       editor.widgets.add('insertQuotebox', {
-        button: 'Create a simple box',
+        button: 'Create a quotebox',
         template:
         '<div class="quotebox">' +
           '<blockquote class="quotebox-quote">' + lang.quote + '</blockquote>' +
