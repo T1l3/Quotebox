@@ -8,7 +8,7 @@
 
     init: function (editor) {
       var lang = editor.lang.quotebox;
-      editor.widgets.add('insertBox', {
+      editor.widgets.add('insertQuotebox', {
         button: 'Create a simple box',
         template:
         '<div class="quotebox">' +
@@ -38,7 +38,7 @@
       if (editor.ui.addButton) {
         editor.ui.addButton('quotebox', {
           label: 'Quotebox',
-          command: 'insertBox'
+          command: 'insertQuotebox'
         });
       }
     }
